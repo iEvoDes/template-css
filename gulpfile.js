@@ -4,7 +4,7 @@ var gulp = require('gulp'),
     notify = require('gulp-notify'),
     autoprefixer = require('gulp-autoprefixer'),
     minifyCSS = require('gulp-minify-css'),
-	imagemin = require('gulp-imagemin');
+    imagemin = require('gulp-imagemin');
 
 // Оптимизация и подготовка CSS
 
@@ -21,7 +21,7 @@ gulp.task('styles', function () {
 // Отслеживание изменений CSS
 
 gulp.task('watch', function () {
-    gulp.watch('css/sources/*.css', ['default'])
+    gulp.watch('css/sources/*.css', ['default']);
 });
 
 // Сжатие изображений
