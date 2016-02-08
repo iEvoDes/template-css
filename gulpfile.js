@@ -21,7 +21,7 @@ gulp.task('styles', function () {
 // Отслеживание изменений CSS
 
 gulp.task('watch', function () {
-    gulp.watch('css/sources/*.css', ['default']);
+    gulp.watch('css/sources/*.css', ['styles']);
 });
 
 // Сжатие изображений
